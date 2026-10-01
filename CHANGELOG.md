@@ -1,3 +1,9 @@
+## [1.1.3](https://github.com/kad-products/sofrito/compare/v1.1.2...v1.1.3) (2026-10-01)
+
+### Bug Fixes
+
+* noop for new workflows ([64252a0](https://github.com/kad-products/sofrito/commit/64252a084151b2410938ddee989c8d3a81cb5ff4))
+
 ## [1.1.2](https://github.com/kad-products/sofrito/compare/v1.1.1...v1.1.2) (2026-09-22)
 
 ### Bug Fixes

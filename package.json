@@ -1,6 +1,6 @@
 {
 	"name": "@kad-products/sofrito",
-	"version": "1.1.2",
+	"version": "1.1.3",
 	"description": "Design System for KAD's products",
 	"sideEffects": [
 		"**/*.css"
