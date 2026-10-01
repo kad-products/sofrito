@@ -1,5 +1,5 @@
 {
-	"name": "@kad-products/design-system",
+	"name": "@kad-products/sofrito",
 	"version": "1.1.2",
 	"description": "Design System for KAD's products",
 	"sideEffects": [
@@ -11,7 +11,7 @@
 			"types": "./dist/index.d.ts",
 			"import": "./dist/index.js"
 		},
-		"./styles.css": "./dist/design-system.css"
+		"./styles.css": "./dist/sofrito.css"
 	},
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
