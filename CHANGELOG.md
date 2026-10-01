@@ -1,3 +1,13 @@
+## [1.2.0](https://github.com/kad-products/sofrito/compare/v1.1.3...v1.2.0) (2026-10-01)
+
+### Features
+
+* enable github repo mgmt via tofu ([fb1016a](https://github.com/kad-products/sofrito/commit/fb1016a94be269af6d2c2400c926b92dd54b414e))
+
+### Bug Fixes
+
+* use the right directory for github config ([cb711a0](https://github.com/kad-products/sofrito/commit/cb711a0a8421b21b7e0ce07a906a11f6b35e7a44))
+
 ## [1.1.3](https://github.com/kad-products/sofrito/compare/v1.1.2...v1.1.3) (2026-10-01)
 
 ### Bug Fixes
