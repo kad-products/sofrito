@@ -9,4 +9,5 @@ jobs:
     uses: kad-products/platform/.github/workflows/create-release-dry-run.yaml@better-shared-workflows
     permissions:
       contents: read
+      pull-requests: write
     secrets: inherit
