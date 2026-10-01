@@ -39,7 +39,7 @@ function getDryRunConfig() {
 
 function getCIConfig() {
 	return {
-		repositoryUrl: 'https://github.com/kad-products/design-system',
+		repositoryUrl: 'https://github.com/kad-products/sofrito',
 		branches: ['main'],
 		plugins: [
 			[
