@@ -68,3 +68,12 @@ export const NoActions: Story = {
 		actions: [],
 	},
 };
+
+export const WithHtml: Story = {
+	args: {
+		title: 'Slow-Roasted Pork Shoulder',
+		html: '<p>Marinated overnight in <strong>citrus and spices</strong>, then slow-roasted until tender.</p><ul><li>Serve with rice</li><li>Add pickled onions</li></ul>',
+		userPermissions: ['__controls:read'],
+		actions: [{ href: '/recipes/5', label: 'View', requiredPermission: '__controls:read' }],
+	},
+};

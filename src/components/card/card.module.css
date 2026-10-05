@@ -14,6 +14,10 @@
 	padding: 0.25rem;
 }
 
+.kad-card-html {
+	padding: 0.25rem;
+}
+
 .kad-card-actions {
 	background: var(--mauve-3);
 	border-radius: 0 0 0.25rem 0.25rem;
