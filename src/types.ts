@@ -2,6 +2,11 @@ import type { ReactNode } from 'react';
 
 export type Permission = string;
 
+export type KADLinkItem = React.ComponentPropsWithoutRef<'a'> & {
+	label: ReactNode;
+	requiredPermission: Permission;
+};
+
 export type KADTableAction =
 	| {
 			type: 'link';

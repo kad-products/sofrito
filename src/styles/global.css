@@ -34,6 +34,11 @@
 	--black-a2: rgba(0, 0, 0, 0.1);
 	--black-a3: rgba(0, 0, 0, 0.15);
 	--black-a4: rgba(0, 0, 0, 0.2);
+	--black-a5: rgba(0, 0, 0, 0.3);
+	--black-a6: rgba(0, 0, 0, 0.35);
+	--black-a7: rgba(0, 0, 0, 0.4);
+	--black-a8: rgba(0, 0, 0, 0.45);
+	--black-a9: rgba(0, 0, 0, 0.55);
 
 	/* Accent (alias to violet for now) */
 	--accent-1: var(--violet-1);
