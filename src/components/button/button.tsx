@@ -1,5 +1,4 @@
 'use client';
-
 import type { JSX } from 'react';
 import styleClasses from './button.module.css';
 

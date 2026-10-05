@@ -6,7 +6,6 @@ import { fileURLToPath } from 'node:url';
 import { storybookTest } from '@storybook/addon-vitest/vitest-plugin';
 import react from '@vitejs/plugin-react';
 import { playwright } from '@vitest/browser-playwright';
-import preserveDirectives from 'rollup-plugin-preserve-directives';
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 
@@ -54,7 +53,7 @@ export default defineConfig({
 				dir: 'dist',
 				entryFileNames: '[name].js',
 			},
-			plugins: [preserveDirectives()],
+			plugins: [],
 		},
 	},
 	test: {

@@ -1,4 +1,3 @@
-'use client';
 import KADAvatar from './components/avatar/avatar';
 import KADButton from './components/button/button';
 import KADCard from './components/card/card';
