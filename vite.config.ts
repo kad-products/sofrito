@@ -58,7 +58,7 @@ export default defineConfig({
 		},
 	},
 	test: {
-		exclude: ['**/__tests__/*.ct.test.{ts,tsx}', 'node_modules'],
+		exclude: ['**/*.ct.test.{ts,tsx}', 'node_modules'],
 		projects: [
 			{
 				extends: true,
@@ -81,6 +81,13 @@ export default defineConfig({
 							},
 						],
 					},
+				},
+			},
+			{
+				test: {
+					name: 'conventions',
+					environment: 'node',
+					include: ['src/conventions.test.ts'],
 				},
 			},
 		],

@@ -4,7 +4,7 @@ const galleryUrl = 'http://localhost:5173/playwright/gallery/index.html';
 
 export default defineConfig({
 	testDir: './src',
-	testMatch: '**/__tests__/*.ct.test.{ts,tsx}',
+	testMatch: '**/*.ct.test.{ts,tsx}',
 	timeout: 10 * 1000,
 	fullyParallel: true,
 	forbidOnly: !!process.env.CI,

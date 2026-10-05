@@ -24,7 +24,7 @@
 		"biome:fix": "biome check --write .",
 		"build": "vite build",
 		"ci:lint": "pnpm biome:check && pnpm knip:check && pnpm prettier:check && pnpm types:check",
-		"ci:tests": "pnpm playwright:run",
+		"ci:tests": "pnpm vitest run --project=conventions && pnpm playwright:run",
 		"dev": "storybook dev -p 6006",
 		"knip:check": "knip",
 		"knip:fix": "knip --fix",
