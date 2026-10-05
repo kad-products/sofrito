@@ -1,3 +1,13 @@
+## [1.4.0](https://github.com/kad-products/sofrito/compare/v1.3.0...v1.4.0) (2026-10-05)
+
+### Features
+
+* add html as an option for card content ([933d3b6](https://github.com/kad-products/sofrito/commit/933d3b6b901c2212d8eb2879ecbedf601f4f42ad))
+
+### Bug Fixes
+
+* remove duplicate use client directives ([e9d60aa](https://github.com/kad-products/sofrito/commit/e9d60aa6ac63d5f61e4496f131e6abe56062d966))
+
 ## [1.3.0](https://github.com/kad-products/sofrito/compare/v1.2.0...v1.3.0) (2026-10-05)
 
 ### Features
