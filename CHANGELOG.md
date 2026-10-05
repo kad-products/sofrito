@@ -1,3 +1,13 @@
+## [1.3.0](https://github.com/kad-products/sofrito/compare/v1.2.0...v1.3.0) (2026-10-05)
+
+### Features
+
+* bring over more components from rezept ([10ad63c](https://github.com/kad-products/sofrito/commit/10ad63c7fcd6b2e63c1dbe9c63c6a8fca789eafe))
+
+### Bug Fixes
+
+* remove unused chromatic package ([5b1858f](https://github.com/kad-products/sofrito/commit/5b1858fd33f01adda325dd3ee8d9d47bc6d97741))
+
 ## [1.2.0](https://github.com/kad-products/sofrito/compare/v1.1.3...v1.2.0) (2026-10-01)
 
 ### Features
