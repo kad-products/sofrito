@@ -260,9 +260,6 @@ importers:
       prettier-plugin-packagejson:
         specifier: ^3.0.2
         version: 3.0.2(prettier@3.9.8)
-      rollup-plugin-preserve-directives:
-        specifier: ^0.4.0
-        version: 0.4.0(rollup@4.63.4)
       storybook:
         specifier: ^10.6.0
         version: 10.6.0(@types/react@19.3.0)(prettier@3.9.8)(react@19.3.0)
@@ -3343,11 +3340,6 @@ packages:
     resolution: {integrity: sha512-hx/Pv0N1haXRb11qkfnK5MXB/iqr7i0yjWQqmO9uHqZpBgQSqzc8UsSnEpalsh+j1I8qQ2CkXAkJC8Br3dKSlg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
-
-  rollup-plugin-preserve-directives@0.4.0:
-    resolution: {integrity: sha512-gx4nBxYm5BysmEQS+e2tAMrtFxrGvk+Pe5ppafRibQi0zlW7VYAbEGk6IKDw9sJGPdFWgVTE0o4BU4cdG0Fylg==}
-    peerDependencies:
-      rollup: 2.x || 3.x || 4.x
 
   rollup@4.63.4:
     resolution: {integrity: sha512-4U0liVayNIoLp3GFl1FcI8561WepLnZ1rqfraGh7S9B3Ur5F9S283y8Futii7RUU2C/97tOBmBy7nYvhoiOpbQ==}
@@ -6605,12 +6597,6 @@ snapshots:
       '@rolldown/binding-win32-arm64-msvc': 1.2.9
       '@rolldown/binding-win32-x64-msvc': 1.2.9
 
-  rollup-plugin-preserve-directives@0.4.0(rollup@4.63.4):
-    dependencies:
-      '@rollup/pluginutils': 5.4.0(rollup@4.63.4)
-      magic-string: 0.30.21
-      rollup: 4.63.4
-
   rollup@4.63.4:
     dependencies:
       '@types/estree': 1.0.9
@@ -6642,6 +6628,7 @@ snapshots:
       '@rollup/rollup-win32-x64-gnu': 4.63.4
       '@rollup/rollup-win32-x64-msvc': 4.63.4
       fsevents: 2.3.3
+    optional: true
 
   run-applescript@7.1.0: {}
 
