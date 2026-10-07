@@ -40,6 +40,20 @@
 	--black-a8: rgba(0, 0, 0, 0.45);
 	--black-a9: rgba(0, 0, 0, 0.55);
 
+	/* Radix Red scale */
+	--red-1: #fff8f7;
+	--red-2: #fff0ee;
+	--red-3: #ffe6e2;
+	--red-4: #ffd5cf;
+	--red-5: #ffc4bc;
+	--red-6: #ffb3aa;
+	--red-7: #f59f96;
+	--red-8: #ec8679;
+	--red-9: #e5484d;
+	--red-10: #dc3d43;
+	--red-11: #ce2c31;
+	--red-12: #641723;
+
 	/* Accent (alias to violet for now) */
 	--accent-1: var(--violet-1);
 	--accent-2: var(--violet-2);

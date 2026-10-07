@@ -6,6 +6,7 @@ import styleClasses from './avatar.module.css';
 
 export type User = {
 	username: string;
+	avatarUrl?: string;
 };
 
 export default function KADAvatar({ user, classNameRoot }: { user?: User; classNameRoot: string }): React.ReactNode {
@@ -18,12 +19,8 @@ export default function KADAvatar({ user, classNameRoot }: { user?: User; classN
 	}
 	return (
 		<Avatar.Root className={classNames(styleClasses.kadAvatarRoot, classNameRoot)}>
-			<Avatar.Image
-				className={styleClasses.kadAvatarImage}
-				src="https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?&w=128&h=128&dpr=2&q=80"
-				alt="Colm Tuite"
-			/>
-			<Avatar.Fallback className={styleClasses.kadAvatarFallback} delayMs={600}>
+			{user.avatarUrl && <Avatar.Image className={styleClasses.kadAvatarImage} src={user.avatarUrl} alt={user.username} />}
+			<Avatar.Fallback className={styleClasses.kadAvatarFallback} delayMs={user.avatarUrl ? 600 : 0}>
 				{user.username.charAt(0).toUpperCase()}
 			</Avatar.Fallback>
 		</Avatar.Root>
