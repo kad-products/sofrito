@@ -18,6 +18,11 @@ jobs:
       contents: read
       packages: read
     secrets: inherit
+    with:
+      artifact-paths: |
+        'dist/'
+        'playwright-report/'
+
 
   plan-github-setup:
     uses: kad-products/platform/.github/workflows/plan-open-tofu.yaml@main
