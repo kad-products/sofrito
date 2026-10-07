@@ -11,7 +11,7 @@ export type KADPopMenuProps = {
 };
 
 export default function KADPopMenu({ items, userPermissions }: KADPopMenuProps): React.ReactNode {
-	const permittedItems = items.filter(i => userPermissions?.includes(i.requiredPermission));
+	const permittedItems = items.filter(i => i.requiredPermission && userPermissions?.includes(i.requiredPermission));
 
 	if (permittedItems.length === 0) return null;
 
