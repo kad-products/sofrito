@@ -5,6 +5,7 @@ import KADDialog from './components/dialog/dialog';
 import KADLink from './components/link/link';
 import KADPagination from './components/pagination/pagination';
 import KADPopMenu from './components/pop-menu/pop-menu';
+import KADProgress from './components/progress/progress';
 import KADSortableList from './components/sortable-list/sortable-list';
 import KADTable from './components/table/table';
 
@@ -13,5 +14,6 @@ export type { KADDialogProps } from './components/dialog/dialog';
 export type { KADLinkProps } from './components/link/link';
 export type { KADPaginationProps } from './components/pagination/pagination';
 export type { KADPopMenuProps } from './components/pop-menu/pop-menu';
+export type { KADProgressProps } from './components/progress/progress';
 export type { KADLinkItem, KADTableAction, KADTableColumn, Permission } from './types';
-export { KADAvatar, KADButton, KADCard, KADDialog, KADLink, KADPagination, KADPopMenu, KADSortableList, KADTable };
+export { KADAvatar, KADButton, KADCard, KADDialog, KADLink, KADPagination, KADPopMenu, KADProgress, KADSortableList, KADTable };

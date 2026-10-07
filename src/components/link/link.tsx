@@ -6,7 +6,7 @@ export type KADLinkProps = KADLinkItem & {
 };
 
 export default function KADLink({ label, requiredPermission, userPermissions, ...other }: KADLinkProps): React.ReactNode {
-	if (!userPermissions?.includes(requiredPermission)) {
+	if (requiredPermission && !userPermissions?.includes(requiredPermission)) {
 		return null;
 	}
 	return <a {...other}>{label}</a>;

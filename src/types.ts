@@ -4,7 +4,7 @@ export type Permission = string;
 
 export type KADLinkItem = React.ComponentPropsWithoutRef<'a'> & {
 	label: ReactNode;
-	requiredPermission: Permission;
+	requiredPermission?: Permission;
 };
 
 export type KADTableAction =
