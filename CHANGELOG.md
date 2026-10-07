@@ -1,3 +1,14 @@
+## [1.6.0](https://github.com/kad-products/sofrito/compare/v1.5.0...v1.6.0) (2026-10-07)
+
+### Features
+
+* adding form inputs from jeopardy and rezept ([b39976a](https://github.com/kad-products/sofrito/commit/b39976a57bb4fb56725638e45b41dcb651bb22d6))
+
+### Bug Fixes
+
+* avatar user has optional image url now ([e59a696](https://github.com/kad-products/sofrito/commit/e59a69655ed60be75f82497b85047fbe26288874))
+* noop for new workflows ([e4ba93a](https://github.com/kad-products/sofrito/commit/e4ba93a4957755a8837086d424b09a10196362a9))
+
 ## [1.5.0](https://github.com/kad-products/sofrito/compare/v1.4.0...v1.5.0) (2026-10-07)
 
 ### Features
