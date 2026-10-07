@@ -1,3 +1,17 @@
+## [1.5.0](https://github.com/kad-products/sofrito/compare/v1.4.0...v1.5.0) (2026-10-07)
+
+### Features
+
+* add progress component from jeopardy ([00f9ef7](https://github.com/kad-products/sofrito/commit/00f9ef7805f0cad24b7ddfd5767c6327c24aebc0))
+
+### Bug Fixes
+
+* **ci:** perms for the release to work ([e92deb4](https://github.com/kad-products/sofrito/commit/e92deb457efde2c90608937883d30b7a86a417da))
+* **ci:** use the right branch name for shared workflows ([3ec8f2f](https://github.com/kad-products/sofrito/commit/3ec8f2f5ed014848a4aa8e1dabf966ee7e3d4e46))
+* handle empty required permissions ([5f96e45](https://github.com/kad-products/sofrito/commit/5f96e45ec60cb7d7f309c48acf66e7eb64be4676))
+* **infra:** renaming of tokens ([64158ad](https://github.com/kad-products/sofrito/commit/64158ad06770741fd1898ba773a73f656b1736ce))
+* proper checks for PRs to main ([4a46eaf](https://github.com/kad-products/sofrito/commit/4a46eafa9f625e07446671f982fe0e4982bf80e1))
+
 ## [1.4.0](https://github.com/kad-products/sofrito/compare/v1.3.0...v1.4.0) (2026-10-05)
 
 ### Features
