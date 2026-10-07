@@ -6,7 +6,7 @@ on:
 
 jobs:
   create-release-dry-run:
-    uses: kad-products/platform/.github/workflows/create-release-dry-run.yaml@better-shared-workflows
+    uses: kad-products/platform/.github/workflows/create-release-dry-run.yaml@main
     permissions:
       contents: read
       pull-requests: write

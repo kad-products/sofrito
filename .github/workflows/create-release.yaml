@@ -6,7 +6,7 @@ on:
 
 jobs:
   create-release:
-    uses: kad-products/platform/.github/workflows/create-release.yaml@better-shared-workflows
+    uses: kad-products/platform/.github/workflows/create-release.yaml@main
     permissions:
       contents: write
       issues: write
