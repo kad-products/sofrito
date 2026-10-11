@@ -1,3 +1,9 @@
+## [1.6.2](https://github.com/kad-products/sofrito/compare/v1.6.1...v1.6.2) (2026-10-11)
+
+### Bug Fixes
+
+* setup renovate ([d275c62](https://github.com/kad-products/sofrito/commit/d275c621c1b84c34464e3c544921cdeff8811f3c))
+
 ## [1.6.1](https://github.com/kad-products/sofrito/compare/v1.6.0...v1.6.1) (2026-10-11)
 
 ### Bug Fixes
