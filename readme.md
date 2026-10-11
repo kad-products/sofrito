@@ -76,6 +76,11 @@ pnpm biome:fix    # auto-fix biome issues
 pnpm prettier:fix # auto-fix formatting
 ```
 
+## Usage docs
+
+- [docs/usage.md](docs/usage.md) — installation, imports, `use client`, styling, and component type reference
+- [docs/tanstack-form.md](docs/tanstack-form.md) — wiring sofrito inputs into TanStack Form with the context provider pattern
+
 ## Component guide
 
 See [src/components/readme.md](src/components/readme.md) for the full standards on file structure, component code, CSS conventions, stories, and visual tests.

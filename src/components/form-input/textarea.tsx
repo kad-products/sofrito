@@ -9,10 +9,17 @@ export function Textarea({
 }: {
 	name: string;
 	value: string;
-	onBlur: React.FocusEventHandler<HTMLTextAreaElement>;
-	onChange: React.ChangeEventHandler<HTMLTextAreaElement>;
+	onBlur: () => void;
+	onChange: (value: string) => void;
 }): React.ReactNode {
 	return (
-		<textarea id={name} className={styleClasses.kadTextarea} name={name} value={value} onBlur={onBlur} onChange={onChange} />
+		<textarea
+			id={name}
+			className={styleClasses.kadTextarea}
+			name={name}
+			value={value}
+			onBlur={onBlur}
+			onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) => onChange(e.target.value)}
+		/>
 	);
 }

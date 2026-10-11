@@ -9,8 +9,17 @@ export function Date({
 }: {
 	name: string;
 	value: string;
-	onBlur: React.FocusEventHandler<HTMLInputElement>;
-	onChange: React.ChangeEventHandler<HTMLInputElement>;
+	onBlur: () => void;
+	onChange: (value: string) => void;
 }): React.ReactNode {
-	return <input id={name} type="date" name={name} value={value} onBlur={onBlur} onChange={onChange} />;
+	return (
+		<input
+			id={name}
+			type="date"
+			name={name}
+			value={value}
+			onBlur={onBlur}
+			onChange={(e: React.ChangeEvent<HTMLInputElement>) => onChange(e.target.value)}
+		/>
+	);
 }
