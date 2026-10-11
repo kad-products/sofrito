@@ -1,3 +1,9 @@
+## [1.6.1](https://github.com/kad-products/sofrito/compare/v1.6.0...v1.6.1) (2026-10-11)
+
+### Bug Fixes
+
+* standardize on simpler form input event contracts ([c0d8a90](https://github.com/kad-products/sofrito/commit/c0d8a90b15d5a72a6e3bdc102c6e63c68f0a3a28))
+
 ## [1.6.0](https://github.com/kad-products/sofrito/compare/v1.5.0...v1.6.0) (2026-10-07)
 
 ### Features
